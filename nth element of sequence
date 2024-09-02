@@ -1,0 +1,17 @@
+a = 7
+d = 11
+# Prompt the user to input the value of n
+n = int(input())
+
+# Compute the nth element of the arithmetic sequence
+nth_element = a + (n - 1) * d
+
+# Print the nth element
+print(nth_element)
+temp = 0
+
+#output
+
+Input	 Output
+10     106
+
