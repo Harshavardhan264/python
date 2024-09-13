@@ -1,0 +1,10 @@
+s=input("Enter String:").split()
+print(s)
+for i in s:
+	if len(i)%2==0:
+		print(i)
+
+#output
+Enter String:i am laxmi
+['i', 'am', 'laxmi']
+am
