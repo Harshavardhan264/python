@@ -1,0 +1,13 @@
+s=input("Enter string:")
+#with slicing
+print(s[::-1])
+
+#without slicing
+rs=""
+for i in s:
+	rs=i+rs
+print(rs)
+
+#output
+Enter string:union
+noinu
