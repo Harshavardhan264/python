@@ -1,0 +1,8 @@
+def f(num_list):
+	smallest=min(num_list)
+	largest=max(num_list)
+	return smallest,largest
+num_list=[12,32,6,23,84]
+smallest,largest=f(num_list)
+print("smallest number:",smallest)
+print("largest number:",largest)
