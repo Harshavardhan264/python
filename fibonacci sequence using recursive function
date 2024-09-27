@@ -10,3 +10,12 @@ else:
 	print("Fibonacci sequence:")
 	for i in range(n):
 		print(fib(i))
+
+#output
+Enter n value:5
+Fibonacci sequence:
+0
+1
+1
+2
+3
