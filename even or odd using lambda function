@@ -1,0 +1,7 @@
+n=int(input("Enter n value:"))
+even_odd = lambda x: "Even" if x%2==0 else "odd"
+print(even_odd(n))
+
+#output
+Enter n value:5
+odd
