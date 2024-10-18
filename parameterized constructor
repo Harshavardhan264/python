@@ -1,0 +1,15 @@
+class add:
+ 	def __init__(self,f,s):
+ 		self.f = f
+ 		self.s = s
+ 	def display(self):
+ 		print(self.f)
+ 		print(self.s)
+ 		print("sum=",self.f+self.s)
+obj = add(10,20)
+obj.display()
+
+#ouput
+10
+20
+sum=30
