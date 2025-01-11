@@ -4,3 +4,6 @@ if s==s[::-1]:
 else:
 	print("not a palindrome")
 	
+//output
+Enter string: mam
+palindrome
