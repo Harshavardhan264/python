@@ -14,7 +14,7 @@ print(x^y)
 A={'a',1,2,3,5}
 print('a' in A)
 print(1 not in A)
-
+print(2 in A)
 #output
 
 {1, 2, 3, 4, 5, 6, 7, 8}
@@ -23,3 +23,4 @@ print(1 not in A)
 {1, 2, 3, 6, 7, 8}
 True
 False
+True
