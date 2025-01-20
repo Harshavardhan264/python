@@ -1,0 +1,17 @@
+import os
+import subprocess
+
+def git_commit(repo_path, commit_message):
+    # Change the current working directory to the repository path
+    os.chdir(repo_path)
+    
+    # Add all changes to the staging area
+    subprocess.run(['git', 'add', '--all'])
+    
+    # Commit the changes with the provided commit message
+    subprocess.run(['git', 'commit', '-m', commit_message])
+
+# Example usage:
+repo_path = '/path/to/your/repo'
+commit_message = 'Your commit message here'
+git_commit(repo_path, commit_message)
